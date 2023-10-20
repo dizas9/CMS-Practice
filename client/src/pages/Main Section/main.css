@@ -1,0 +1,42 @@
+.child-content {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+Main Section
+*/
+/* Welcome Section */
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  min-height: 57.12vh;
+  max-width: 70vh;
+  margin: 1rem 0 0 1rem;
+  border-radius: 1rem;
+  box-shadow: 3px 2px 18px rgba(170, 181, 171, 0.5);
+}
+.welcome-section p {
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 5rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.list-link {
+  display: flex;
+  margin-left: 2rem;
+  column-gap: 0.5rem;
+  padding-bottom: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+.list-link img {
+  width: 25px;
+}
+.list-link a {
+  text-decoration: underline;
+  color: #9c5151;
+}
+.list-link a:hover {
+  color: blue;
+}

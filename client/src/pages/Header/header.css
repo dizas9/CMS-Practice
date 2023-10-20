@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  min-height: 14.28vh;
+  justify-content: space-between;
+  background-color: #aab5ab;
+  min-width: 75vw;
+  border: 1px solid #d9d9d9;
+  box-shadow: 8px 8px 2px rgba(217, 217, 217, 0.5);
+}/* 
+Header Section
+*/
+.goto-link,
+.account-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 1rem 2rem;
+  padding: 0 1rem 0 1rem;
+  column-gap: 0.3rem;
+}
+.goto-link-text a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+.goto-icon img {
+  width: 1rem;
+  padding-bottom: 0.2rem;
+  vertical-align: middle;
+}
+.account-section a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.goto-link-text a:hover,
+.account-section a:hover {
+  color: blue;
+}
+
