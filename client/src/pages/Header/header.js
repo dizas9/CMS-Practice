@@ -2,20 +2,20 @@ import "./header.css";
 function Header() {
   return (
     <>
-      <div class="header">
-        <div class="goto-link">
-          <div class="goto-link-text">
+      <div className="header">
+        <div className="goto-link">
+          <div className="goto-link-text">
             <a href="#">Goto Website</a>
           </div>
-          <div class="goto-icon">
+          <div className="goto-icon">
             <img src="../Image & Icon/Logo & Icon/goto-icon.png" alt="" />
           </div>
         </div>
-        <div class="account-section">
-          <div class="login-section">
+        <div className="account-section">
+          <div className="login-section">
             <a href="#">Login</a>
           </div>
-          <div class="register-section">
+          <div className="register-section">
             <a href="#">Register</a>
           </div>
         </div>
