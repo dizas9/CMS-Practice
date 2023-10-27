@@ -1,12 +1,13 @@
 .header {
   display: flex;
-  min-height: 14.28vh;
+  min-height: 14.28vhvh;
   justify-content: space-between;
   background-color: #aab5ab;
   min-width: 75vw;
   border: 1px solid #d9d9d9;
   box-shadow: 8px 8px 2px rgba(217, 217, 217, 0.5);
-}/* 
+}
+/* 
 Header Section
 */
 .goto-link,
@@ -37,4 +38,3 @@ Header Section
 .account-section a:hover {
   color: blue;
 }
-
