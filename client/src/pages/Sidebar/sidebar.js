@@ -3,21 +3,26 @@ import "./sidebar.css";
 function Sidebar() {
   const sideNavigation = [
     {
-      name: "test",
-      href: "/hello",
-      src: "icon",
+      name: "content Control",
+      href: "/content-control",
+      src: process.env.PUBLIC_URL + "/Images & Icons/img-icon.png",
     },
     {
-      name: "test2",
-      href: "/hello2",
-      src: "icon",
+      name: "Database Control",
+      href: "/database-control",
+      src: process.env.PUBLIC_URL + "/Images & Icons/DB.png",
+    },
+    {
+      name: "Settings",
+      href: "/settings",
+      src: process.env.PUBLIC_URL + "/Images & Icons/settings.png",
     },
   ];
   return (
     <>
       <div className="sidebar">
         <div className="logo">
-          <img src="../Image & Icon/Logo & Icon/logo.png" alt="" />
+          <img src={process.env.PUBLIC_URL + "/Images & Icons/logo.png"} alt="" />
         </div>
 
         {sideNavigation.map((item) => {

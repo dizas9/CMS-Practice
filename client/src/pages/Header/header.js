@@ -8,7 +8,10 @@ function Header() {
             <a href="#">Goto Website</a>
           </div>
           <div className="goto-icon">
-            <img src="../Image & Icon/Logo & Icon/goto-icon.png" alt="" />
+            <img
+              src={process.env.PUBLIC_URL + "/Images & Icons/goto-icon.png"}
+              alt=""
+            />
           </div>
         </div>
         <div className="account-section">
