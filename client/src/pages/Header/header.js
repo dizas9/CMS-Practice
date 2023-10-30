@@ -1,5 +1,13 @@
+import { useState } from "react";
 import "./header.css";
 function Header() {
+  const [isRegisterModalOpen, setRegisterModalOpen] = useState(false);
+  function openRegModal() {
+    setRegisterModalOpen(true);
+  }
+  function closeRegModal() {
+    setRegisterModalOpen(false);
+  }
   return (
     <>
       <div className="header">
@@ -19,7 +27,7 @@ function Header() {
             <a href="#">Login</a>
           </div>
           <div className="register-section">
-            <a href="#">Register</a>
+            <button onClick={openRegModal}>Register</button>
           </div>
         </div>
       </div>

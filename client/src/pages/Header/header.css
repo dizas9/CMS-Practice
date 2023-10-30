@@ -34,7 +34,14 @@ Header Section
   color: white;
   font-size: 18px;
 }
+.account-section button {
+  border: none;
+  color: white;
+  font-size: 18px;
+  background-color: #aab5ab;
+}
 .goto-link-text a:hover,
-.account-section a:hover {
+.account-section a:hover,
+.account-section button:hover {
   color: blue;
 }
