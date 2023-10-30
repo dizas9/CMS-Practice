@@ -1,13 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App_CMS from "./BACKEND-CMS/App_CMS";
+import reportWebVitals from "./reportWebVitals";
+import App_Website from "./WEBSITE/App-Website";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const isCMSMode = true;
+
+const App = isCMSMode ? <App_CMS/> : <App_Website/>;
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {App}
   </React.StrictMode>
 );
 
