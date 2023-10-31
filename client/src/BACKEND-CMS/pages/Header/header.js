@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./header.css";
+import Modal from "../../components/Register Modal/registerModal";
 function Header() {
   const [isRegisterModalOpen, setRegisterModalOpen] = useState(false);
   function openRegModal() {
@@ -31,6 +32,8 @@ function Header() {
           </div>
         </div>
       </div>
+      {/* <div className="overlay"></div> */}
+      <Modal isOpen={isRegisterModalOpen} onClose={closeRegModal} />
     </>
   );
 }
