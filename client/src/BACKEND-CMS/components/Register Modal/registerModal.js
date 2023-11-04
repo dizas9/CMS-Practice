@@ -20,6 +20,9 @@ function Modal({ isOpen, onClose }) {
     {
       labelName: "Email",
     },
+    {
+      labelName: "Phone Number",
+    },
   ];
 
   const socialIcon = [

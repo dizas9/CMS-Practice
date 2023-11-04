@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./header.css";
-import Modal from "../../components/Register Modal/registerModal";
+import Modal from "../Register Modal/registerModal";
 function Header() {
   const [isRegisterModalOpen, setRegisterModalOpen] = useState(false);
   function openRegModal() {
