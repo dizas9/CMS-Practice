@@ -21,9 +21,14 @@ function Sidebar() {
   return (
     <>
       <div className="sidebar">
-        <div className="logo">
-          <img src={process.env.PUBLIC_URL + "/Images & Icons/logo.png"} alt="" />
-        </div>
+        <NavLink to={'/'}>
+          <div className="logo">
+            <img
+              src={process.env.PUBLIC_URL + "/Images & Icons/logo.png"}
+              alt=""
+            />
+          </div>
+        </NavLink>
 
         {sideNavigation.map((item) => {
           return (
