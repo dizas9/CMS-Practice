@@ -32,77 +32,13 @@
 /* Modal CSS */
 .register-form-modal {
   display: flex;
-  min-width: 50vw;
+  min-width: 3vw;
   min-height: 72vh;
   background-color: white;
   box-shadow: 0 2px 40px rgba(0, 0, 0, 0.9);
   font-family: "Roboto", sans-serif;
 }
 /* Form profile Section */
-.form-profile-section {
-  display: flex;
-  flex-direction: column;
-  min-width: 30%;
-  background-color: #d9d9d9;
-}
-.profile-image-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 45%;
-}
-.profile-image-section img {
-  max-height: 8rem;
-  max-width: 8rem;
-  border-radius: 4rem;
-  object-fit: fill;
-  overflow: hidden;
-}
-.profile-image-section button {
-  margin-top: 1rem;
-  min-width: 5rem;
-  min-height: 2rem;
-  font-size: 12px;
-  font-weight: 500;
-  border: none;
-  border-radius: 2rem;
-  background-color: #aab5ab;
-  color: white;
-}
-.profile-social-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 55%;
-}
-.profile-social-section .div1 {
-  padding: 0.5rem 2rem;
-  border-radius: 2rem;
-  border: none;
-  background-color: white;
-  color: #aab5ab;
-  font-size: 12px;
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-.profile-social-section .div2 {
-  display: flex;
-  gap: 0.3rem;
-  margin-top: 0.3rem;
-}
-.profile-social-section .div2 img {
-  max-width: 2rem;
-}
-.profile-social-section .div2 input {
-  min-height: 1.6rem;
-  max-width: 8rem;
-  border: 2px solid #aab5ab;
-  border-radius: 0.75rem;
-  background-color: #d9d9d9;
-  vertical-align: middle;
-}
 
 /* Form Information Section */
 .form-info-section {
@@ -114,7 +50,7 @@
   flex-direction: column;
   border: 2px solid#aab5ab;
   min-width: 30vw;
-  min-height: 25vh;
+  min-height: 60vh;
   margin: 1rem 2rem -1rem 2rem;
   align-items: center;
   border-radius: 1.56rem;
@@ -125,53 +61,24 @@
 }
 .gen-info-field {
   display: flex;
-  flex-wrap: wrap;
-  padding-left: 4rem;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
 }
 .gen-info-field div {
   display: flex;
-  flex-direction: column;
-  flex-basis:calc(33.33% - 0.1rem);
   font-size: 12px;
   font-weight: 400;
   color: #aab5ab;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .gen-info-field input,
 .aca-info-field input {
   border: 1px solid #aab5ab;
-  width: 6rem;
+  width: 8rem;
   border-radius: 0.26rem;
-}
-.academic-info-section {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid#aab5ab;
-  min-width: 30vw;
-  min-height: 35vh;
-  margin: 2rem 2rem 0 2rem;
-  align-items: center;
-  border-radius: 2.18rem;
-}
-.academic-info-section h3 {
-  color: #aab5ab;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-.aca-info-field {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-.aca-info-field div {
-  display: flex;
-  font-size: 12px;
-  font-weight: 400;
-  color: #aab5ab;
-  justify-content: space-between;
-  gap: 0.5rem;
 }
 /* Submit & Close Button */
 .submit-button {

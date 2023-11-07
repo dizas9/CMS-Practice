@@ -5,17 +5,17 @@ function Sidebar() {
     {
       name: "content Control",
       href: "/content-control",
-      src: process.env.PUBLIC_URL + "/Images & Icons/img-icon.png",
+      src:"/Images/img-icon.png",
     },
     {
       name: "Database Control",
       href: "/database-control",
-      src: process.env.PUBLIC_URL + "/Images & Icons/DB.png",
+      src:"/Images/DB.png",
     },
     {
       name: "Settings",
       href: "/settings",
-      src: process.env.PUBLIC_URL + "/Images & Icons/settings.png",
+      src:"/Images/settings.png",
     },
   ];
   return (
@@ -24,7 +24,7 @@ function Sidebar() {
         <NavLink to={'/'}>
           <div className="logo">
             <img
-              src={process.env.PUBLIC_URL + "/Images & Icons/logo.png"}
+              src={process.env.PUBLIC_URL + "/Images/logo.png"}
               alt=""
             />
           </div>

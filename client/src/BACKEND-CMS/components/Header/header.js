@@ -18,7 +18,7 @@ function Header() {
           </div>
           <div className="goto-icon">
             <img
-              src={process.env.PUBLIC_URL + "/Images & Icons/goto-icon.png"}
+              src="/Images/goto-icon.png"
               alt=""
             />
           </div>

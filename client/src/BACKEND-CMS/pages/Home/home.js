@@ -21,10 +21,7 @@ function Home() {
               <NavLink to={item.href}>
                 <div class="list-link">
                   <img
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/Images & Icons/goto-icon-round.png"
-                    }
+                    src="/Images/goto-icon-round.png"
                     alt="icon"
                   />
                   <a href="#">{item.name}</a>
