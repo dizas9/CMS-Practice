@@ -21,4 +21,13 @@ module.exports = {
       res.status(500).json({ error: "registration failed" });
     }
   },
+  fetchUser: async (req, res) => {
+    try {
+      const userData = await User.find();
+      res.json(userData);
+    } catch (error) {
+      console.error("Error Fetching user:", error);
+      res.status(500).json({ error: "Fetch User Field" });
+    }
+  },
 };

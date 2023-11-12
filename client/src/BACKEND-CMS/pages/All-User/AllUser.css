@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.table-container {
+  display: flex;
+  flex-flow: column wrap;
+}
+.title-bar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 0.6rem;
+  max-height: 4rem;
+  flex: 1 1 4rem;
+  gap: 1rem;
+}
+.title-bar img {
+  height: 1.5rem;
+  rotate: 180deg;
+}
+.title-bar p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #9c5151;
+}
+.th1,
+.th2 {
+  min-width: 10rem;
+}
+
+.th3,
+.th4,
+.th5 {
+  min-width: 12rem;
+}
+td {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 16px;
+  color: #9c5151;
+}

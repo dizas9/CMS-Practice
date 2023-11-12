@@ -5,6 +5,7 @@ import Header from "./components/Header/header";
 import Home from "./pages/Home/home";
 import "./App_CMS.css";
 import Test from "./pages/Test/test";
+import AllUser from "./pages/All-User/AllUser";
 function App_CMS() {
   return (
     <>
@@ -16,6 +17,7 @@ function App_CMS() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/hello" element={<Test />} />
+              <Route path="/all-user" element={<AllUser/>}/>
             </Routes>
           </div>
         </div>
